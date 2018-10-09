@@ -8,6 +8,10 @@ While MetaMask exposes the [standard Ethereum web3 API](https://github.com/ether
 
 Due to browser security restrictions, we can't communicate with dapps running on `file://`. Please use a local server for development.
 
+### :nut_and_bolt: &lt;!DOCTYPE html&gt;
+
+Add this tag on the top of your HTML files.
+
 ### :partly_sunny: Web3 - Ethereum Browser Environment Check
 
 MetaMask injects `web3` object and convenience Web3.js library into the javascript context.
